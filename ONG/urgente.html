@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Doações urgentes </title>
+    <link rel="stylesheet" href=".\styleUrgente.css">
 </head>
+
 <body>
+    <header class="headerONG">
+        <img src="menu.svg" alt="configura ções" href="">
+        <h1> Olá, ONG! </h1>
+    </header>
+
     <main>
         <form action="#" method="post">
-            
+
             <div class="container">
 
-            <h2> Qual a urgência? </h2>
-            <input type="checkbox" name="opcaoDoacao1" value="desastresNaturais">
-            <label for="desastresNaturais"> Desastres naturais </label> <br>
+                <h2> Qual a urgência? </h2>
+                <br> 
 
-            <input type="checkbox" name="opcaoDoacao2" value="violenciaDomestica">
-            <label for="violenciaDomestica"> Violência doméstica </label> <br>
-            
-            <input type="checkbox" name="opcaoDoacao3" value="escassezMateriais">
-            <label for="escassezMateriais"> Escassez de materias </label> <br>
+                <button class="desastresNaturais"> Desastres naturais </button> <br>  <br>
+                <button class="violenciaDomestica"> Violência doméstica </button> <br> <br>
+                <button class="escassezMaterial"> Escassez de materiais </button> <br> <br>
+                <button class="procedimentosHospitalares"> Procedimentos hospitalares </button> <br> <br>
+                <button class="situacoesVulnerabilidade"> Situações de vulnerabilidade </button> <br> <br>
 
-            <input type="checkbox" name="opcaoDoacao4" value="procedimentosHospitalares">
-            <label for="procedimentosHospitalares"> Procedimentos hospitalares </label> <br>
-
-             <input type="checkbox" name="opcaoDoacao5" value="situacoesVulnerabilidade">
-            <label for="situacoesVulnerabilidade"> Situações de vulnerabilidade  </label>
-            
-            <button class="continuar" href="necessidade.html"> Continuar </button>
+                <button class="continuar" href="necessidade.html"> Continuar </button> <br> <br>
+                <button class="voltar" href="index.html"> Voltar </button>
             </div> <br>
 
-            <button class="voltar" href="index.html"> Voltar  </button>
+           
         </form>
     </main>
+    <footer>
+        &copy; <p>Todos os direitos reservados. </p>
+    </footer>
 </body>
+
 </html>

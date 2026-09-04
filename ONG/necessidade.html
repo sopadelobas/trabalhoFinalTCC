@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Doações urgentes </title>
+    <link rel="stylesheet" href=".\styleNecessidade.css">
 </head>
+
 <body>
+
+    <header class="headerONG">
+        <img src="menu.svg" alt="configurações" href="">
+        <h1> Olá, ONG! </h1>
+    </header>
+
     <main>
-        <h2> A instituição precisa de: </h2>
-        <form>
-            <input type="checkbox" name="dinheiroDoado" value="dinheiro">
-            <label for="dinheiro"> Dinheiro </label> <br>
+        <div class="container">
+            <h2> A instituição precisa de: </h2>
+            <form>
+                <input type="checkbox" name="dinheiroDoado" value="dinheiro">
+                <label for="dinheiro"> Dinheiro </label> <br>
 
-            <input type="checkbox" name="alimentosDoados" value="alimento">
-            <label for="dinheiro"> Doação de alimentos </label> <br>
-            
-            <input type="checkbox" name="remediosDoados" value="remedio">
-            <label for="dinheiro"> Doação de remédios </label> <br>
+                <input type="checkbox" name="alimentosDoados" value="alimento">
+                <label for="dinheiro"> Doação de alimentos </label> <br>
 
-            <input type="checkbox" name="roupasDoadas" value="roupas">
-            <label for="dinheiro"> Doações de roupas </label> <br>
-        
-            <label for="informacoes"> Informações adicionais </label>
-            <input type="text" name="informacoes">
+                <input type="checkbox" name="remediosDoados" value="remedio">
+                <label for="dinheiro"> Doação de remédios </label> <br>
 
-        </form>
+                <input type="checkbox" name="roupasDoadas" value="roupas">
+                <label for="dinheiro"> Doações de roupas </label> <br> <br>
+
+                <label for="informacoes"> Informações adicionais </label> <br>
+                <input type="text" name="informacoes">
+
+                <button class="continuar" href="necessidade.html"> Continuar </button> <br> <br>
+                <button class="voltar" href="index.html"> Voltar </button>
+
+            </form>
+        </div>
     </main>
-    
+
+    <footer>
+        &copy; <p>Todos os direitos reservados. </p>
+    </footer>
+
 </body>
+
 </html>
